@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace WindowsFormsApp2
+namespace Calculator
 {
     public partial class Form1 : Form
     {
 
         float num=0, result=0;
         char choice;
-        Boolean operationDone = false;//to know when operators are pressed
+        Boolean operationDone = false;
 
         public Form1()
         {
